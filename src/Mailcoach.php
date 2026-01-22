@@ -8,6 +8,7 @@ use Spatie\MailcoachSdk\Actions\ManagesAutomations;
 use Spatie\MailcoachSdk\Actions\ManagesCampaigns;
 use Spatie\MailcoachSdk\Actions\ManagesEmailLists;
 use Spatie\MailcoachSdk\Actions\ManagesSubscribers;
+use Spatie\MailcoachSdk\Actions\ManagesTemplates;
 use Spatie\MailcoachSdk\Actions\ManagesTransactionalMails;
 
 class Mailcoach
@@ -18,6 +19,7 @@ class Mailcoach
     use ManagesEmailLists;
     use ManagesSubscribers;
     use ManagesTransactionalMails;
+    use ManagesTemplates;
 
     public function __construct(
         public string $apiToken,
