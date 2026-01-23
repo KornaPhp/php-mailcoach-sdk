@@ -8,6 +8,7 @@ use Spatie\MailcoachSdk\Actions\ManagesAutomations;
 use Spatie\MailcoachSdk\Actions\ManagesCampaigns;
 use Spatie\MailcoachSdk\Actions\ManagesEmailLists;
 use Spatie\MailcoachSdk\Actions\ManagesSubscribers;
+use Spatie\MailcoachSdk\Actions\ManagesTemplates;
 use Spatie\MailcoachSdk\Actions\ManagesTransactionalMails;
 
 class Mailcoach
@@ -17,6 +18,7 @@ class Mailcoach
     use ManagesCampaigns;
     use ManagesEmailLists;
     use ManagesSubscribers;
+    use ManagesTemplates;
     use ManagesTransactionalMails;
 
     public function __construct(
