@@ -18,8 +18,8 @@ class Mailcoach
     use ManagesCampaigns;
     use ManagesEmailLists;
     use ManagesSubscribers;
-    use ManagesTransactionalMails;
     use ManagesTemplates;
+    use ManagesTransactionalMails;
 
     public function __construct(
         public string $apiToken,

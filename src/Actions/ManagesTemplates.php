@@ -1,4 +1,5 @@
 <?php
+
 namespace Spatie\MailcoachSdk\Actions;
 
 use Spatie\MailcoachSdk\Resources\Template;
@@ -40,5 +41,4 @@ trait ManagesTemplates
     {
         $this->delete("templates/{$uuid}");
     }
-
 }

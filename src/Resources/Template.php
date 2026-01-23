@@ -2,11 +2,8 @@
 
 namespace Spatie\MailcoachSdk\Resources;
 
-use Spatie\MailcoachSdk\Actions\ManagesTemplates;
-
 class Template extends ApiResource
 {
-
     public string $uuid;
 
     public string $name;
