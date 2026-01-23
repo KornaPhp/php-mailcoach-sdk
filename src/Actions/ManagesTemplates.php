@@ -22,4 +22,23 @@ trait ManagesTemplates
         return new Template($attributes, $this);
     }
 
+    public function createTemplate(array $data): Template
+    {
+        $attributes = $this->post('templates', $data)['data'];
+
+        return new Template($attributes, $this);
+    }
+
+    public function updateTemplate(string $uuid, array $data): Template
+    {
+        $attributes = $this->put("templates/{$uuid}", $data)['data'];
+
+        return new Template($attributes, $this);
+    }
+
+    public function deleteTemplate(string $uuid): void
+    {
+        $this->delete("templates/{$uuid}");
+    }
+
 }
