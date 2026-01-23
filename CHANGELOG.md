@@ -2,6 +2,20 @@
 
 All notable changes to `mailcoach-sdk-php` will be documented in this file.
 
+## 1.9.4 - 2026-01-23
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/spatie/mailcoach-sdk-php/pull/56
+* Bump actions/checkout from 5 to 6 by @dependabot[bot] in https://github.com/spatie/mailcoach-sdk-php/pull/55
+* Templates api by @Marcel-Wil in https://github.com/spatie/mailcoach-sdk-php/pull/58
+
+### New Contributors
+
+* @Marcel-Wil made their first contribution in https://github.com/spatie/mailcoach-sdk-php/pull/58
+
+**Full Changelog**: https://github.com/spatie/mailcoach-sdk-php/compare/1.9.3...1.9.4
+
 ## 1.9.3 - 2025-11-14
 
 ### What's Changed
